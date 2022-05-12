@@ -12,15 +12,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		mdsnippets.json = mdsnippets.json
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{6CA55C38-CCB9-4A9D-A2CB-80769CB68BE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{6CA55C38-CCB9-4A9D-A2CB-80769CB68BE6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{73D10DBC-866D-43C1-A575-6B0C8501C8B1} = {73D10DBC-866D-43C1-A575-6B0C8501C8B1}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyToProcess", "AssemblyToProcess\AssemblyToProcess.csproj", "{73D10DBC-866D-43C1-A575-6B0C8501C8B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssemblyToProcess", "AssemblyToProcess\AssemblyToProcess.csproj", "{73D10DBC-866D-43C1-A575-6B0C8501C8B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientRedirect", "HttpClientRedirect\HttpClientRedirect.csproj", "{1081049B-603F-4F63-96A5-FFFAAED79AEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpClientRedirect", "HttpClientRedirect\HttpClientRedirect.csproj", "{1081049B-603F-4F63-96A5-FFFAAED79AEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssemblyWithNoSymbols", "AssemblyWithNoSymbols\AssemblyWithNoSymbols.csproj", "{E9AAA577-A8BC-4AC5-A812-24676ED96FAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssemblyWithNoSymbols", "AssemblyWithNoSymbols\AssemblyWithNoSymbols.csproj", "{E9AAA577-A8BC-4AC5-A812-24676ED96FAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DummyAssembly", "DummyAssembly\DummyAssembly.csproj", "{89ED71DB-D25D-4DA6-B20F-DFF49BC65FDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DummyAssembly", "DummyAssembly\DummyAssembly.csproj", "{89ED71DB-D25D-4DA6-B20F-DFF49BC65FDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssemblyToReference", "AssemblyToReference\AssemblyToReference.csproj", "{9878BA21-BA7A-4580-B55D-675B3513FD0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +64,12 @@ Global
 		{89ED71DB-D25D-4DA6-B20F-DFF49BC65FDD}.DebugNet6|Any CPU.Build.0 = Debug|Any CPU
 		{89ED71DB-D25D-4DA6-B20F-DFF49BC65FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89ED71DB-D25D-4DA6-B20F-DFF49BC65FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9878BA21-BA7A-4580-B55D-675B3513FD0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9878BA21-BA7A-4580-B55D-675B3513FD0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9878BA21-BA7A-4580-B55D-675B3513FD0F}.DebugNet6|Any CPU.ActiveCfg = Debug|Any CPU
+		{9878BA21-BA7A-4580-B55D-675B3513FD0F}.DebugNet6|Any CPU.Build.0 = Debug|Any CPU
+		{9878BA21-BA7A-4580-B55D-675B3513FD0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9878BA21-BA7A-4580-B55D-675B3513FD0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,51 @@
+﻿{
+  target: {
+    SendWasCalled: 2
+  },
+  httpCalls: [
+    {
+      Request: {
+        Uri: https://httpbin.org/status/200,
+        Headers: {
+        }
+      },
+      Response: {
+        Status: 200 OK,
+        Headers: {
+          Access-Control-Allow-Credentials: true,
+          Access-Control-Allow-Origin: *,
+          Connection: keep-alive,
+          Date: DateTime_1,
+          Server: gunicorn/19.9.0
+        },
+        ContentHeaders: {
+          Content-Length: 0,
+          Content-Type: text/html; charset=utf-8
+        },
+        ContentString: 
+      }
+    },
+    {
+      Request: {
+        Uri: https://httpbin.org/status/200,
+        Headers: {
+        }
+      },
+      Response: {
+        Status: 200 OK,
+        Headers: {
+          Access-Control-Allow-Credentials: true,
+          Access-Control-Allow-Origin: *,
+          Connection: keep-alive,
+          Date: DateTime_2,
+          Server: gunicorn/19.9.0
+        },
+        ContentHeaders: {
+          Content-Length: 0,
+          Content-Type: text/html; charset=utf-8
+        },
+        ContentString: 
+      }
+    }
+  ]
+}
