@@ -31,9 +31,9 @@ public class Tests
                         continue;
                     }
 
-                    var referenceDeclaringType = reference.DeclaringType;
+                    var declaringType = reference.DeclaringType;
                     if (reference.Name == ".ctor" &&
-                        referenceDeclaringType.FullName == "System.Net.Http.HttpClient")
+                        declaringType.FullName == "System.Net.Http.HttpClient")
                     {
                         reference.DeclaringType = sentryHttpClient;
                     }
