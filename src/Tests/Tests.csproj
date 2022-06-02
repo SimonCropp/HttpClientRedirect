@@ -6,8 +6,8 @@
     <Reference Include="Mono.Cecil" HintPath="..\Lib\Mono.Cecil.dll" />
     <Reference Include="Mono.Cecil.Pdb" HintPath="..\Lib\Mono.Cecil.Pdb.dll" />
     <Reference Include="Mono.Cecil.Rocks" HintPath="..\Lib\Mono.Cecil.Rocks.dll" />
-    <PackageReference Include="Verify.NUnit" Version="17.0.0-beta.1" />
-    <PackageReference Include="Verify.Http" Version="2.3.0" />
+    <PackageReference Include="Verify.NUnit" Version="17.0.2" />
+    <PackageReference Include="Verify.Http" Version="2.4.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.2.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
     <PackageReference Include="MarkdownSnippets.MsBuild" Version="24.4.0" PrivateAssets="all" />
